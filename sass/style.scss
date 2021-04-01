@@ -1,0 +1,10 @@
+@use "abstracts" as *;
+@use "reset";
+@use "base";
+@use "components";
+@use "pages";
+
+body {
+  background-color: rebeccapurple;
+  color: lighten(rebeccapurple, 30%);
+}

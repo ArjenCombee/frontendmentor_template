@@ -1,0 +1,23 @@
+{
+  "name": "frontendmentor_template",
+  "version": "1.0.0",
+  "description": "Template folder for codeding with frontendmentor.io",
+  "main": "index.html",
+  "scripts": {
+    "start:serve": "live-server",
+    "start:sass": "sass sass:css --no-source-map --style=compressed --watch ",
+    "start": "npm-run-all --parallel start:*"
+  },
+  "keywords": [],
+  "author": "Arjen Combee [ arjencombee@gmail.com ]",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "live-server": "^1.2.1",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.32.8"
+  }
+}
